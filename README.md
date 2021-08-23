@@ -67,6 +67,8 @@ relaxation based bound propagation algorithms on general neural network
 architectures with GPU acceleration.
 
 nvidia-docker run -it crown-beta-v7  /bin/bash
+
+
 cd /home/Beta-CROWN-master/src
 
 To run our code, please first clone our repository and install dependencies:
