@@ -71,6 +71,10 @@ nvidia-docker run -it crown-beta-v7  /bin/bash
 
 cd /home/Beta-CROWN-master/src
 
+
+python bab_verification.py --device cuda --load "models/cifar_base_kw.pth" --model cifar_model --data CIFAR --batch_size 400 --timeout 3600 --mode complete | tee base.txt
+
+
 To run our code, please first clone our repository and install dependencies:
 
 
